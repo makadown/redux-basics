@@ -8,13 +8,13 @@ Bajo la guía del maestro Fernando Herrera como parte del curso https://www.udem
 
 Instalar de manera global:
 
-´´´
+```
 npm install -g ts-node
 npm install -g typescript
-´´´
+npm i redux
+```
 
-Con eso podemos correr el archivo app-1.ts de la siguiente manera:
-
-´´´
+Con eso podemos correr el archivo app-4.ts de la siguiente manera:
+```
 ts-node app-1.ts
-´´´
+```

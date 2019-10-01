@@ -1,6 +1,9 @@
 import { Reducer, Action } from './ngrx-fake/ngrx';
 import { contadorReducer } from './contador/contador.reducer';
 import { incrementadorAction, multiplicadorAction } from './contador/contador.actions';
+/**
+ * Simulacion de la clase store de redux!
+ */
 class Store<T> {
   constructor(private reducer: Reducer<T>, private state: T) {
 
